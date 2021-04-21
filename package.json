@@ -7,6 +7,8 @@
 , "repository" : { "type":"git", "url":"http://github.com/ciaranj/node-oauth.git" }
 , "devDependencies": {
     "vows": "0.5.x"
+  }, "dependencies": {
+  	"https-proxy-agent": "^1.0.0"
   }
 , "scripts": {
     "test": "make test"
